@@ -13,8 +13,6 @@ services:
     image: octoprint/octoprint
     restart: on-failure
     stop_grace_period: 1m
-    ports:
-      - 5000:5000
     volumes:
       # Uncomment to mount your data directories inside
       # the Docker container for storing persistent data
