@@ -14,6 +14,10 @@ website: https://octoprint.org/
 repo: https://github.com/octoprint/octoprint
 support: https://community.octoprint.org
 port: 5000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
