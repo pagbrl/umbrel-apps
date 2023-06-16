@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # <app-id>_<web-container-name>_1
+      # e.g. 'btc-rpc-explorer_web_1'
+      # Note that the '_1' at the end is needed
+      APP_HOST: octoprint_web_1
+      APP_PORT: 5000
+
+  web:
+    image: octoprint/octoprint
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 5000:5000
+    volumes:
+      # Uncomment to mount your data directories inside
+      # the Docker container for storing persistent data
+      - ${APP_DATA_DIR}/octoprint:/octoprint/octoprint
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"

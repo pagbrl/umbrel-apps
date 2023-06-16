@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: octoprint
+category: 3d Printing
+name: Octoprint
+version: "0.0.1"
+tagline: OctoPrint is the snappy web interface for your 3D printer
+description: >-
+  OctoPrint provides a snappy web interface for controlling consumer 3D printers. It is Free Software and released under the GNU Affero General Public License V3.
+
+  Its website can be found at octoprint.org.
+releaseNotes: >-
+
+developer: octoprint
+website: https://octoprint.org/
+repo: https://github.com/octoprint/octoprint
+support: https://community.octoprint.org
+port: 5000
+path: ""
+defaultUsername: ""
+defaultPassword: ""
