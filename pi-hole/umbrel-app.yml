@@ -10,7 +10,7 @@ description: >-
   Network-level blocking allows you to block ads in non-traditional places such
   as mobile apps and smart TVs, regardless of hardware or OS. Since
   advertisements are blocked before they are downloaded, network performance is
-  improved and will feel faster. 
+  improved and will feel faster.
 
 
   In addition to blocking advertisements, Pi-hole® has an informative Web interface that shows stats on all the domains being queried on your network. Pi-hole® works fine with an existing DHCP server, but you can use Pi-hole®’s to keep your network management in one place.

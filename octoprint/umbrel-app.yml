@@ -11,6 +11,7 @@ description: >-
 releaseNotes: ""
 developer: octoprint
 website: https://octoprint.org/
+dependencies: []
 repo: https://github.com/octoprint/octoprint
 support: https://community.octoprint.org
 port: 5000
