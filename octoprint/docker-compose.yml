@@ -16,6 +16,6 @@ services:
     volumes:
       # Uncomment to mount your data directories inside
       # the Docker container for storing persistent data
-      - ${APP_DATA_DIR}/octoprint:/octoprint/octoprint
+      - ${APP_DATA_DIR}/octoprint:/octoprint
     devices:
       - "/dev/ttyUSB0:/dev/ttyUSB0"
